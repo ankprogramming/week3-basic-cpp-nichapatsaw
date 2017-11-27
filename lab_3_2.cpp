@@ -12,7 +12,7 @@ int main() {
 
 
    // เขียนโปรแกรมเพิ่มเพื่อหาช่วงของค่าที่เก็บได้
-   cout << "Min of char : " << numeric_limits<char>::min() << endl;
+   cout << "Min of char : " << numeric_limits(char)::min() << endl;
    cout << "Max of char : " << numeric_limits<char>::max() << endl;
 
    cout << "Min of short int : " << numeric_limits<short int>::min() << endl;
